@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="{{ HTML_LANG }}">	
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+	<title>{% block title %}{{ SITENAME }}{%endblock%}</title>	
+	<meta name="author" content="{{ AUTHOR }}">
+	
+	{% block extra_meta %}
+	{% endblock %}
+
+	<link rel="top" href="#" />
+	<link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" type="text/css" />
+		
+	{% block scripts %}
+	{% endblock %}
+
+    {% if FEED_ALL_ATOM %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
+    {% endif %}
+    {% if FEED_ALL_RSS %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+    {% endif %}
+</head>
+	
+<body>
+{{ FEED_ATOM }}
+    <div class="container">
+	  
+	  <header role="banner">
+	    <div class="feeds">
+	      {% if FEED_ALL_ATOM %}
+	        <a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" rel="alternate"><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/feed-32px.png" alt="atom feed"/></a>
+	      {% endif %}
+          {% if FEED_ALL_RSS %}
+            <a href="{{ SITEURL }}/{{ FEED_ALL_RSS }}" rel="alternate"><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/feed-32px.png" alt="rss feed"/></a>
+          {% endif %}
+	    </div>
+	    {% if DISPLAY_PAGES_ON_MENU %}
+	      <nav class="pages">
+	        {% for p in pages %}
+			  <a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
+			  {% if not loop.last %}-{% endif %}
+			{% endfor %}
+	      </nav>
+	    {% endif %}
+<!-- 		<a href="{{ SITEURL }}" class="title">{{ SITENAME }}</a> -->
+      </header>
+
+	  <div class="wrapper">
+
+		  <div role="main" class="content">
+		    {% block content %}{% endblock %}
+		  </div>
+
+
+
+        {% if categories or SOCIAL or LINKS %}
+		  <div class="sidebar">
+
+	        <nav>
+	          <h2>Categories</h2>
+	          <ul>
+	            {% for cat, null in categories %}
+	              <li {% if cat == category %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+	            {% endfor %}
+	          </ul>
+	        </nav>
+
+	        {% if SOCIAL %}
+	          <aside>
+	          <h2>Social</h2>
+			    <ul class="social">
+				  {% for name, link in SOCIAL %}
+				  <li><a href="{{ link }}">{{ name }}</a><i></i></li>
+				  {% endfor %}
+			    </ul>
+			  </aside>
+			{% endif %}
+
+	        {% if LINKS %}
+	          <aside>
+	            <h2>Blogroll</h2>
+	            <ul>
+	              {% for name, link in LINKS %}
+	                <li><a href="{{ link }}">{{ name }}</a></li>
+	              {% endfor %}
+	            </ul>
+	          </aside>
+	        {% endif %}
+
+		  </div>
+        {% endif %}
+
+	  </div>
+
+      <footer>
+		<p role="contentinfo">
+		  Website: © 2021- <a href="https://tu-dresden.de/ing/elektrotechnik/rst/das-institut/beschaeftigte/carsten-knoll">Carsten Knoll</a>, erstellt mit  <a href="https://getpelican.com/">pelican</a> und <a href="https://github.com/fle/pelican-simplegrey">pelican-simplegrey</a> (angepasst).
+    	</p>
+
+	  </footer>
+
+	</div>
+
+</body>
+</html>

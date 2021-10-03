@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}{{ SITENAME }}{% endblock %}
+
+{% block extra_meta %}
+    <meta property="og:title" content="Python für Ingenieure für Dummies">
+    <meta property="og:description" content="Ingenieurprobleme Lösen mit der einfachen und mächtigen Programmiersprache Python: Kurven fitten, Systeme simulieren, Diagramme zeichnen, Spektren berechnen u.v.m. Hier gibt's das Begleitmaterial zum Buch.">
+    <meta property="og:image" content="https://python-fuer-ingenieure.de/img/cover_banner.png">
+    <meta property="og:url" content="https://python-fuer-ingenieure.de/">
+    <meta name="twitter:card" content="summary_large_image">
+{% endblock %}
+
+
+{% block content %}
+
+{{ page.content }}
+
+{% endblock %}

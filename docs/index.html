@@ -14,8 +14,8 @@
     <meta name="twitter:card" content="summary_large_image">
 
 	<link rel="top" href="#" />
-	<link rel="shortcut icon" href="https://python-fuer-ingenieure.de/img/favicon.ico" sizes="32x32">
-	<link rel="stylesheet" href="https://python-fuer-ingenieure.de/theme/css/main.css" type="text/css" />
+	<link rel="shortcut icon" href="/img/favicon.ico" sizes="32x32">
+	<link rel="stylesheet" href="/theme/css/main.css" type="text/css" />
 		
 
 </head>
@@ -27,7 +27,7 @@
 	  <header role="banner">
 	    <div class="feeds">
 	    </div>
-<!-- 		<a href="https://python-fuer-ingenieure.de" class="title">Python für Ingenieure für dummies</a> -->
+<!-- 		<a href="" class="title">Python für Ingenieure für dummies</a> -->
       </header>
 
 	  <div class="wrapper">
@@ -43,11 +43,121 @@
 <p>Alle Code-Beispiele ("Schnipsel") im Buch sind kapitelweise in Jupyer-Notebooks hinterlegt und können auf diese Weise direkt (ohne abtippen) ausgeführt werden. Viele der Beispiele erzeugen eine grafische Ausgabe die direkt der jeweiligen Abbildung im Buch entspricht. Damit ist die <strong>Reproduzierbarkeit</strong> der Ergebnisse gewährleistet.</p>
 <p>Die Schnipsel im Buch wurden aus den Notebooks mit einem Skript erzeugt. Alle Code-Zeilen zwischen speziellen Markdown-Zellen (<code>begin XYZ</code> und <code>end</code>) werden zu einem Schnipsel für das Buch zusammengefasst – bis auf die Zeilen, die mit  dem speziellen Kommentar <code>#!</code> enden. Diese werden aus didaktischen Gründen ausgespart. Aus ähnlichen Gründen werden gelegentlich Zeilen in die Buch-Schnipsel eingefügt, die tatsächlich gar nicht ausgeführt werden (Kommentar <code>#!</code> am Beginn der Zeile). Das ist zum Beispiel sinnvoll, um Code darzustellen, der zu bestimmten Fehlern führt.</p>
 <h2 id="begleitmaterial-interaktiv-ausprobieren">Begleitmaterial interaktiv ausprobieren</h2>
-<p>Um erste Erfahrungen mit dem Quellcode zu sammeln, bietet sich die Browser-basierte Lösung <em>Binder</em> an. Dabei handelt es sich um einen Dienst, bei dem je nach Bedarf (durch Klick auf einen Link) eine virtuelle Maschine (VM) gestartet wird, auf der dann der Notebook-Server mit dem Inhalt des entsprechenden Repos läuft. Das Hochfahren der VM dauert ca. 2 min.  Danach erscheint der Inhalt des Verzeichnisses <code>notebooks</code> in einer Art Datei-Browser. Um zum ausführbaren Code zu gelangen, klicken Sie z.&#x202F;B. auf <code>kapitel_01_erstkontakt</code> und dann auf <code>erstkontakt.ipynb</code>. Das entsprechende Notebook öffnet sich in einem neuen Tab, sodass der Datei-Browser-Tab erhalten bleibt. Dadurch ist es einfach, mehrere Notebooks parallel laufen zu lassen. Im Notebook können Sie nun den Quellcode direkt ausführen (<code>SHIFT+Enter</code> in jeder Zelle, Details in Buch-Kapitel 1). Weiterhin hilfrech: <em>Help</em> → <em>User Interface Tour</em> und <em>Help</em> → <em>Keyboard Shortcuts</em>.</p>
+<p>Um erste Erfahrungen mit dem Quellcode zu sammeln, bietet sich die Browser-basierte Lösung <em>Binder</em> an. Dabei handelt es sich um einen Dienst, bei dem je nach Bedarf (durch Klick auf einen Link) eine virtuelle Maschine (VM) gestartet wird, auf der dann der Notebook-Server mit dem Inhalt des entsprechenden Repos läuft. Das Hochfahren der VM dauert ca. 2 min.  Danach erscheint der Inhalt des Verzeichnisses <code>notebooks</code> in einer Art Datei-Browser. Um zum ausführbaren Code zu gelangen, klicken Sie z.&#x202F;B. auf <code>kapitel_01_erstkontakt</code> und dann auf <code>erstkontakt.ipynb</code>. Das entsprechende Notebook öffnet sich in einem neuen Tab, sodass der Datei-Browser-Tab erhalten bleibt. Dadurch ist es einfach, mehrere Notebooks parallel laufen zu lassen. Im Notebook können Sie nun den Quellcode direkt ausführen (<code>Shift+Enter</code> in jeder Zelle, Details in Buch-Kapitel 1). Weiterhin hilfreich: <em>Help</em> → <em>User Interface Tour</em> und <em>Help</em> → <em>Keyboard Shortcuts</em>.</p>
 <p>Hier geht's nun zum Notebook-Server auf einer eigens für Sie gestarteten Binder-VM: <a href="https://mybinder.org/v2/gh/python-fuer-ingenieure/material/main?urlpath=/tree/notebooks"><img alt="Binder" src="https://mybinder.org/badge_logo.svg"></a>.</p>
 <p>Wenn Sie über die Kennenlernphase hinaus sind, empfehlen wir übrigens, sich Python und die relevante Zusatzsoftware lokal auf Ihrem Rechner zu installieren. Näheres dazu in Buch-Kapitel 2.</p>
+<h2 id="links-zum-anklicken">Links zum Anklicken</h2>
+<p>Sparen Sie sich das Abtippen; alle Links im Buch sind hier noch einmal zum Anklicken aufgelistet.</p>
+<ul>
+<li>Kapitel 2: <em>Installation</em><ul>
+<li>https://www.python.org/downloads/ - Downloads des Python-Interpreters</li>
+<li>https://www.anaconda.com/products/individual - Downloads der <em>Anaconda</em>-Distribution</li>
+<li>https://pypi.org/ - Python Package Index</li>
+<li>https://www.spyder-ide.org/ - IDE <em>Spyder</em></li>
+<li>https://www.jetbrains.com/de-de/pycharm/ - IDE <em>PyCharm</em></li>
+</ul>
+</li>
+<li>Kapitel 3: <em>Grundlagen</em><ul>
+<li>https://docs.python.org/3/library/string.html#formatspec - Details zur Stringformatierung</li>
+</ul>
+</li>
+<li>Kapitel 4: <em>Effiziente Numerik mit NumPy</em><ul>
+<li>https://numpy.org/doc/stable/user/basics.broadcasting.html - Dokumentation zum Broadcasting</li>
+<li>https://numpy.org/devdocs/reference/arrays.indexing.html - Die fabelhafte Welt der Array-Indizierung</li>
+<li>https://numpy.org/doc/stable/reference/routines.math.html - Mathematische Funktionen</li>
+<li>https://numpy.org/doc/stable/user/numpy-for-matlab-users.html - <em>NumPy</em> für <em>Matlab</em>-Benutzer</li>
+</ul>
+</li>
+<li>Kapitel 6: <em>Brunfzeit für Termhirsche</em><ul>
+<li>https://docs.sympy.org/ - Dokumentation zu <em>SymPy</em></li>
+</ul>
+</li>
+<li>Kapitel 7: <em>Visualisierung</em><ul>
+<li>https://matplotlib.org/ - Dokumentation zu <em>Matplotlib</em></li>
+</ul>
+</li>
+<li>Kapitel 8: <em>So tun, als ob: Modellbildung und Simulation</em><ul>
+<li>https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.solve_ivp.html - Dokumentation zur Funktion <code>solve_ivp</code></li>
+</ul>
+</li>
+<li>Kapitel 9: <em>Optimierung - Besser geht's nicht</em><ul>
+<li>https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize.html - Dokumentation zur Funktion <code>minimize</code></li>
+<li>https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html - Dokumentation zur Funktion <code>curve_fit</code></li>
+<li>https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html - Dokumentation zur Funktion <code>polyfit</code></li>
+<li>https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.UnivariateSpline.html - Details zu Splines in <em>NumPy</em></li>
+</ul>
+</li>
+<li>Kapitel 10: <em>Mechanik - Ganz ohne schmutzige Hände</em><ul>
+<li>https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fmin.html - Dokumentation zur Funktion <code>fmin</code></li>
+</ul>
+</li>
+<li>Kapitel 12: <em>Kombinatorik, Zufall und Statistik</em><ul>
+<li>https://de.wikipedia.org/wiki/Kombination_(Kombinatorik) - Gedankenexperiment zur Kombination mit Wiederholung</li>
+<li>https://numpy.org/doc/stable/reference/random/generator.html#distributions - Wahrscheinlichkeitsverteilungen in <em>NumPy</em></li>
+<li>https://docs.scipy.org/doc/scipy/reference/tutorial/stats.html - Tutorial zu Statistik mit <em>SciPy</em></li>
+<li><em>Matplotlib</em>-Funktionen zum Visualisieren von Fehlern und Unsicherheiten<ul>
+<li>https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.errorbar.html</li>
+<li>https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.fill_between.html</li>
+<li>https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.boxplot.html</li>
+<li>https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.violinplot.html</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Kapitel 13: <em>Python im Labor – Steuern, Messen, Filtern, Darstellen</em><ul>
+<li>https://pyserial.readthedocs.io - Dokumentation zu <em>pySerial</em></li>
+<li>https://pyvisa.readthedocs.io - Dokumentation zu <em>pyVISA</em></li>
+<li>https://docs.python.org/3/library/socket.html - Dokumentation zu Sockets in der Standardbibliothek</li>
+<li>https://docs.python.org/3/library/ctypes.html - Mit <em>ctypes</em> C-Code aufrufen</li>
+<li>https://docs.python.org/3/library/logging.html - Dokumentation zum Logging</li>
+<li>https://docs.scipy.org/doc/scipy/reference/signal.html#filtering - Signalfilterung mit <em>SciPy</em></li>
+</ul>
+</li>
+<li>Kapitel 15: <em>Profiling und Performanz-Optimierung</em><ul>
+<li>https://www.thecodeship.com/patterns/guide-to-python-function-decorators/ - Überblick zu Dekoratoren</li>
+</ul>
+</li>
+<li>Kapitel 16: <em>Von den Profis lernen - Das Wichtigste zur Softwaretechnik</em><ul>
+<li>https://docs.python.org/3/library/unittest.html - Unittests mit Bordmitteln</li>
+<li>https://ipython.readthedocs.io/en/stable/ - Dokumentation zu <em>IPython</em></li>
+<li>https://www.python.org/dev/peps/pep-0008/ - Konventionen zum Formatieren von Python-Code</li>
+<li>https://git-scm.com/ - Versionsverwaltungssoftware <em>Git</em></li>
+</ul>
+</li>
+<li>Kapitel 17: <em>Die 10 nützlichsten Module, die bisher nicht erwähnt wurden</em><ul>
+<li>https://riverbankcomputing.com/software/pyqt - GUIs mit <em>PyQt</em></li>
+<li>https://docs.python.org/3/library/re.html - Details zu regulären Ausdrücken</li>
+<li>https://scikit-learn.org/stable/user_guide.html} - Dokumentation zu <em>Scikit-learn</em></li>
+</ul>
+</li>
+<li>Kapitel 18: <em>10 fiese Fallstricke und 3 Mal schwarze Python-Magie</em><ul>
+<li>https://docs.python.org/3/library/2to3.html - Automatische Konversion von Python 2 zu Python 3</li>
+</ul>
+</li>
+<li>Kapitel 19: <em>10 nützliche Links</em><ul>
+<li>https://docs.python.org/3/tutorial/index.html - Offizielle Python-Dokumentation</li>
+<li>https://docs.python.org/3/library/index.html - Dokumentation der Standardbibliothek</li>
+<li>https://pypi.org/ - Python Package Index</li>
+<li>https://book.pythontips.com/ - Nützliche fortgeschrittene Tipps zur Inspiration</li>
+<li>https://github.com/search?l=Python&amp;q=solve_ivp&amp;type=Code - Suche nach Code auf <em>GitHub</em></li>
+<li>https://gitlab.com - Git-Host <em>GitLab.com</em></li>
+<li>https://codeberg.org - Git-Host <em>Codeberg</em></li>
+<li>https://pythex.org/ - Debugging von regulären Ausdrücken</li>
+<li>https://regex101.com/ - Debugging von regulären Ausdrücken mit mehr Funktionen</li>
+<li>https://computers-are-fast.github.io/ - Quiz zur Geschwindigkeit von Computern</li>
+<li>https://stackoverflow.com/questions/tagged/sympy+matrix - Beispielsuche auf <em>Stack Overflow</em></li>
+<li>https://www.sphinx-doc.org/en/master/usage/quickstart.html - Dokumentationswerkzeug <em>Sphinx</em></li>
+<li>https://www.hackerrank.com/domains/python/numpy - Programmieraufgaben zu <em>NumPy</em></li>
+<li>https://edabit.com/challenges/python3 - Übungsaufgaben zum Selbstprogrammieren</li>
+<li>https://cscircles.cemc.uwaterloo.ca/visualize - Schrittweises Ausführen von Python-Programmen - mit Zurückspulen</li>
+<li>https://planet.scipy.org/ - Blogbeiträge zu <em>SciPy</em> und <em>NumPy</em></li>
+<li>https://planet.sympy.org/index.html - Blogbeiträge zu <em>SymPy</em></li>
+<li>https://planetpython.org/ - Blogbeiträge zu Python im Allgemeinen</li>
+</ul>
+</li>
+</ul>
 <h2 id="fehler-und-verbesserungsvorschlage-melden">Fehler und Verbesserungs&shy;vorschläge melden</h2>
-<p>Auch wenn wir uns bei der Aufbereitung des Materials große Mühe gegeben haben, ist es unrealistisch anzunehmen, dass der Buch-Text und der Code keine Fehler enthalten. Wir bitten deshalb um eine E-Mail an die Autoren (<code>&lt;vorname&gt;.&lt;nachname&gt;@tu-dresden.de</code>) oder um das Öffnen eines <a href="https://github.com/python-fuer-ingenieure/begleitmaterial/issues">Github-Issues</a>. Das Gleiche gilt für allgemeine Kritik und Verbesserungsvorschläge zum Buch. Vielen Dank!</p>
+<p>Auch wenn wir uns bei der Aufbereitung des Materials große Mühe gegeben haben, ist es unrealistisch anzunehmen, dass der Buch-Text und der Code keine Fehler enthalten. Wir bitten deshalb um eine E-Mail an die Autoren (<code>&lt;vorname&gt;.&lt;nachname&gt;@tu-dresden.de</code>) oder um das Öffnen eines <a href="https://github.com/python-fuer-ingenieure/begleitmaterial/issues">GitHub-Issues</a>. Das Gleiche gilt für allgemeine Kritik und Verbesserungsvorschläge zum Buch. Vielen Dank!</p>
 <h2 id="lizenz">Lizenz</h2>
 <p>Cover-Bild, Logos, Markennamen und sonstige Inhalte des Repos sind urheberrechtlich geschützt. Für Verwendungen, die nicht vom Zitatrecht gedeckt sind, wenden Sie sich an den Verlag oder die Autoren.</p>
 

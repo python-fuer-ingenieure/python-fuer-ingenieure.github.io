@@ -34,33 +34,33 @@ Wenn Sie über die Kennenlernphase hinaus sind, empfehlen wir übrigens, sich Py
 
 Sparen Sie sich das Abtippen; alle Links im Buch sind hier noch einmal zum Anklicken aufgelistet.
 
-- Kapitel 2: *Installation*
+- Kapitel 2: **Installation**
     - <https://www.python.org/downloads/> – Downloads des Python-Interpreters
     - <https://www.anaconda.com/products/individual> – Downloads der *Anaconda*-Distribu&shy;tion
     - <https://pypi.org/> – Python Package Index
     - <https://www.spyder-ide.org/> – IDE *Spyder*
     - <https://www.jetbrains.com/de-de/pycharm/> – IDE *PyCharm*
-- Kapitel 3: *Grundlagen*
+- Kapitel 3: **Grundlagen**
     - <https://docs.python.org/3/library/string.html#formatspec> – Details zur String&shy;forma&shy;tierung
-- Kapitel 4: *Effiziente Numerik mit NumPy*
+- Kapitel 4: **Effiziente Numerik mit NumPy**
     - <https://numpy.org/doc/stable/user/basics.broadcasting.html> – Dokumentation zum Broad&shy;casting
     - <https://numpy.org/devdocs/reference/arrays.indexing.html> – Die fabelhafte Welt der Array-Indi&shy;zierung
     - <https://numpy.org/doc/stable/reference/routines.math.html> – Mathematische Funktionen
     - <https://numpy.org/doc/stable/user/numpy-for-matlab-users.html> – *NumPy* für *Matlab*-Benutzer
-- Kapitel 6: *Brunfzeit für Termhirsche*
+- Kapitel 6: **Brunfzeit für Termhirsche**
     - <https://docs.sympy.org/> – Dokumentation zu *SymPy*
-- Kapitel 7: *Visualisierung*
+- Kapitel 7: **Visualisierung**
     - <https://matplotlib.org/> – Dokumentation zu *Matplotlib*
-- Kapitel 8: *So tun, als ob: Modellbildung und Simulation*
+- Kapitel 8: **So tun, als ob: Modellbildung und Simulation**
     - <https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.solve_ivp.html> – Dokumentation zur Funktion `solve_ivp`
-- Kapitel 9: *Optimierung> – Besser geht's nicht*
+- Kapitel 9: **Optimierung – Besser geht's nicht**
     - <https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize.html> – Dokumentation zur Funktion `minimize`
     - <https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html> – Dokumentation zur Funktion `curve_fit`
     - <https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html> – Dokumentation zur Funktion `polyfit`
     - <https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.UnivariateSpline.html> – Details zu Splines in *NumPy*
-- Kapitel 10: *Mechanik> – Ganz ohne schmutzige Hände*
+- Kapitel 10: **Mechanik – Ganz ohne schmutzige Hände**
     - <https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fmin.html> – Dokumentation zur Funktion `fmin`
-- Kapitel 12: *Kombinatorik, Zufall und Statistik*
+- Kapitel 12: **Kombinatorik, Zufall und Statistik**
     - <https://de.wikipedia.org/wiki/Kombination_(Kombinatorik)> – Gedankenexperiment zur Kombination mit Wiederholung
     - <https://numpy.org/doc/stable/reference/random/generator.html#distributions> – Wahrscheinlichkeitsverteilungen in *NumPy*
     - <https://docs.scipy.org/doc/scipy/reference/tutorial/stats.html> – Tutorial zu Statistik mit *SciPy*
@@ -69,27 +69,27 @@ Sparen Sie sich das Abtippen; alle Links im Buch sind hier noch einmal zum Ankli
         - <https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.fill_between.html>
         - <https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.boxplot.html>
         - <https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.violinplot.html>
-- Kapitel 13: *Python im Labor – Steuern, Messen, Filtern, Darstellen*
+- Kapitel 13: **Python im Labor – Steuern, Messen, Filtern, Darstellen**
     - <https://pyserial.readthedocs.io> – Dokumentation zu *pySerial*
     - <https://pyvisa.readthedocs.io> – Dokumentation zu *pyVISA*
     - <https://docs.python.org/3/library/socket.html> – Dokumentation zu Sockets in der Standardbibliothek
     - <https://docs.python.org/3/library/ctypes.html> – Mit *ctypes* C-Code aufrufen
     - <https://docs.python.org/3/library/logging.html> – Dokumentation zum Logging
     - <https://docs.scipy.org/doc/scipy/reference/signal.html#filtering> – Signalfilterung mit *SciPy*
-- Kapitel 15: *Profiling und Performanz-Optimierung*
+- Kapitel 15: **Profiling und Performanz-Optimierung**
     - <https://www.thecodeship.com/patterns/guide-to-python-function-decorators/> – Überblick zu Dekoratoren
-- Kapitel 16: *Von den Profis lernen – Das Wichtigste zur Softwaretechnik*
+- Kapitel 16: **Von den Profis lernen – Das Wichtigste zur Softwaretechnik**
     - <https://docs.python.org/3/library/unittest.html> – Unittests mit Bordmitteln
     - <https://ipython.readthedocs.io/en/stable/> – Dokumentation zu *IPython*
     - <https://www.python.org/dev/peps/pep-0008/> – Konventionen zum Formatieren von Python-Code
     - <https://git-scm.com/> – Versionsverwaltungssoftware *Git*
-- Kapitel 17: *Die 10 nützlichsten Module, die bisher nicht erwähnt wurden*
+- Kapitel 17: **Die 10 nützlichsten Module, die bisher nicht erwähnt wurden**
     - <https://riverbankcomputing.com/software/pyqt> – GUIs mit *PyQt*
     - <https://docs.python.org/3/library/re.html> – Details zu regulären Ausdrücken
     - <https://scikit-learn.org/stable/user_guide.html> – Dokumentation zu *Scikit-learn*
-- Kapitel 18: *10 fiese Fallstricke und 3 Mal schwarze Python-Magie*
+- Kapitel 18: **10 fiese Fallstricke und 3 Mal schwarze Python-Magie**
     - <https://docs.python.org/3/library/2to3.html> – Automatische Konversion von Python 2 zu Python 3
-- Kapitel 19: *10 nützliche Links*
+- Kapitel 19: **10 nützliche Links**
     - <https://docs.python.org/3/tutorial/index.html> – Offizielle Python-Dokumentation
     - <https://docs.python.org/3/library/index.html> – Dokumentation der Standard&shy;bibliothek
     - <https://pypi.org/> – Python Package Index

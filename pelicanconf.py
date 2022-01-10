@@ -78,8 +78,7 @@ AUTHORS_SAVE_AS = ""
 CATEGORIES_SAVE_AS = ""
 
 
-
-
 EXTRA_PATH_METADATA = {
                         'res/CNAME': {'path': 'CNAME'},
+                        'res/htaccess': {'path': '.htaccess'},
                       }

@@ -8,7 +8,7 @@ save_as: index.html
 
 <a href="https://wiley-vch.de/ISBN9783527717675"><img src="img/cover_book.png" title="Python für Ingenieure für Dummies" alt="Cover: Python für Ingenieure für Dummies"  style="float:right; width:60vw; max-width:290px; margin-left:1.5em; margin-bottom:1.5em; margin-right:.5em;" /></a>
 
-Das Buch **[Python für Inge&shy;nieure für Dummies](https://wiley-vch.de/ISBN9783527717675)**, erscheint Anfang Oktober 2021 im Wiley-VCH Verlag in gedruckter und digitaler Fassung. Inhalts&shy;ver&shy;zeich&shy;nis, Probekapitel und Index sind auf der [Verlags-Website](https://wiley-vch.de/ISBN9783527717675) abrufbar.
+Das Buch **[Python für Inge&shy;nieure für Dummies](https://wiley-vch.de/ISBN9783527717675)**, erschient Anfang Oktober 2021 im Wiley-VCH Verlag in gedruckter und digitaler Fassung. Inhalts&shy;ver&shy;zeich&shy;nis, Probekapitel und Index sind auf der [Verlags-Website](https://wiley-vch.de/ISBN9783527717675) abrufbar.
 
 
 Das **Begleitmaterial** zum Buch wird in einem öffentlichen Git-Repo gepflegt:<br>

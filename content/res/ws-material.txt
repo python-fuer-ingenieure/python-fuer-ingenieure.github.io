@@ -2,7 +2,7 @@
 <html lang="">	
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<meta http-equiv="refresh" content="time; URL=https://github.com/python-fuer-ingenieure/2022-clt-workshop" />
+	<meta http-equiv="refresh" content="0; URL=https://github.com/python-fuer-ingenieure/2022-clt-workshop" />
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
 	<title>Python für Ingenieure für dummies</title>	
@@ -29,11 +29,15 @@
 	    <div class="feeds">
 	    </div>
 <!-- 		<a href="https://python-fuer-ingenieure.de" class="title">Python für Ingenieure für dummies</a> -->
+<!-- 		2022-03-13 05:37:31-->
       </header>
 
 	  <div class="wrapper">
 
 		  <div role="main" class="content">
+
+
+
 
 <p>Weiterleitung zu <a href="https://github.com/python-fuer-ingenieure/2022-clt-workshop">https://github.com/python-fuer-ingenieure/2022-clt-workshop</a> </p>
 

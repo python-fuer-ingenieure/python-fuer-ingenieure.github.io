@@ -7,7 +7,16 @@ save_as: workshop.html
 
 
 
-Diese Webseite enthält Informationen zum Workshop *Python für Ingenieur:innen – Kompaktworkshop* der als Programmbeitrag für die [Chemnitzer Linux-Tage 2022](https://chemnitzer.linux-tage.de/2022/) eingereicht wurde. Entscheidung zur Annahme steht noch aus.
+Diese Webseite enthält Informationen zum Workshop *Python für Ingenieur:innen – Kompaktworkshop* der als Programmbeitrag für die [Chemnitzer Linux-Tage 2022](https://chemnitzer.linux-tage.de/2022/) eingereicht wurde. Termin: [2022-03-13 11:00 Uhr](https://chemnitzer.linux-tage.de/2022/de/programm/beitrag/209).
+
+
+## Workshop-Material
+
+
+Siehe <https://github.com/python-fuer-ingenieure/2022-clt-workshop>. Material herunterladen: [main.zip](https://github.com/python-fuer-ingenieure/2022-clt-workshop/archive/refs/heads/main.zip).
+
+
+Weiteres Material (Anspruchsvolle Übungsaufgaben etc.) ist unter im [OPAL-Verzeichnis](https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/12518195218/CourseNode/94506982489539) des Pythonkurses an der TU-Dresden zu finden.
 
 
 ## Kurzbeschreibung

@@ -1,1 +1,2 @@
+Redirect 302 /workshop/material https://github.com/python-fuer-ingenieure/2022-clt-workshop
 Redirect 302 /workshop /workshop.html

@@ -51,7 +51,7 @@ THEME = 'themes/simplegrey-adapted'
 OUTPUT_PATH = 'docs/'
 
 # these paths are relative to /content
-STATIC_PATHS = ["img", "res/CNAME"]
+STATIC_PATHS = ["img", "res/CNAME", "res/htaccess"]
 
 JINJA_GLOBALS = {
 "BUILD_TIME": datetime.utcnow()

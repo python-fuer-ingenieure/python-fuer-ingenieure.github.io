@@ -51,7 +51,7 @@ THEME = 'themes/simplegrey-adapted'
 OUTPUT_PATH = 'docs/'
 
 # these paths are relative to /content
-STATIC_PATHS = ["img", "res/CNAME", "res/htaccess", "res/ws-material.txt"]
+STATIC_PATHS = ["img", "res/CNAME", "res/htaccess", "res/ws-material.txt", "res/spring2022.txt"]
 
 JINJA_GLOBALS = {
 "BUILD_TIME": datetime.utcnow()
@@ -82,4 +82,5 @@ EXTRA_PATH_METADATA = {
                         'res/CNAME': {'path': 'CNAME'},
                         'res/htaccess': {'path': '.htaccess'},
                         'res/ws-material.txt': {'path': 'ws-material.html'},
+                        'res/spring2022.txt': {'path': 'spring2022.html'},
                       }

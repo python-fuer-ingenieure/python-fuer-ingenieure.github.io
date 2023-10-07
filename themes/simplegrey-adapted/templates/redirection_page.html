@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}{{  page.title }}{% endblock %}
+
+
+{% block author %}
+{% endblock %}
+
+{% block extra_meta %}
+    <meta http-equiv="refresh" content="0; URL={{ page.redirection_url }}" />
+
+    <meta property="og:title" content="{{  page.title }}">
+    <meta property="og:description" content="{{  page.description }}">
+    <meta property="og:image" content="https://python-fuer-ingenieure.de/img/cover_banner.png">
+    <meta property="og:url" content="{{ SITEURL }}/{{  page.slug }}">
+    <meta name="twitter:card" content="summary_large_image">
+{% endblock %}
+
+
+12345
+
+{% block content %}
+
+{{ page.content }}
+
+{% endblock %}

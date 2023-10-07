@@ -1,1 +1,2 @@
 Redirect 302 /workshop /workshop.html
+Redirect 302 /spring2023 https://github.com/python-fuer-ingenieure/spring2023

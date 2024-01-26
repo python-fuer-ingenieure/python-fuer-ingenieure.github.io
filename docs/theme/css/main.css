@@ -41,7 +41,7 @@ body {
 
 .container {
 
-  width: 80vw;
+  width: 95vw;
   max-width: 800px;
   margin: 0 auto;
   text-align: justify;
@@ -63,15 +63,24 @@ header {
 }
 
 .wrapper {
-  display: table;
+/*   display: table; */
   width: 100%;
 }
 
 .content {
-  display: table-cell;
+/*   display: table-cell; */
+  display: block;
   border-left: 1px solid #d6d6d6;
   border-right: 1px dotted #D6D6D6;
-  padding: 0 20px 1em 20px;
+  padding: 0px 20px 1em 20px;
+  min-height: 87vh;
+}
+
+.content h1 {
+
+  margin-top: 0px;
+  padding-top: 40px;
+  
 }
 
 .sidebar {

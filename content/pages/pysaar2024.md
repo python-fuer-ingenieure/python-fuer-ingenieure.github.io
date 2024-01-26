@@ -9,7 +9,7 @@ template: page
 
 
 
-<img src="img/cover-round-shadow-small.png" title="PySaar 2024" alt="Logo - PySaar 2024"  style="float:right; width:60vw; max-width:290px; margin-left:1.5em; margin-bottom:1.5em; margin-right:.5em;" />
+<img src="img/cover-round-shadow-small.png" title="PySaar 2024" alt="Logo - PySaar 2024"  style="float:right; width:30vw; max-width:290px; margin-left:1.5em; margin-bottom:1.5em; margin-right:.5em;" />
 
 Save the date:
 <br>

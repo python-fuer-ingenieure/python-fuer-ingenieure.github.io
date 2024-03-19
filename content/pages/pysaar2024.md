@@ -11,10 +11,11 @@ template: page
 
 <img src="img/cover-round-shadow-small.png" title="PySaar 2024" alt="Logo - PySaar 2024"  style="float:right; width:30vw; max-width:290px; margin-left:1.5em; margin-bottom:1.5em; margin-right:.5em;" />
 
-Save the date:
-<br>
+Universität des Saarlandes,<br>
+[Chair of Modeling and Simulation](https://www.uni-saarland.de/en/lehrstuhl/flasskamp.html)
 
-April 2nd - 4th 2024, Universität des Saarlandes, [Chair of Modeling and Simulation](https://www.uni-saarland.de/en/lehrstuhl/flasskamp.html).
+
+**Time**: April 2nd - 4th 2024, 09:00h - 18:00h
 
 
 **Contents:**
@@ -32,6 +33,17 @@ April 2nd - 4th 2024, Universität des Saarlandes, [Chair of Modeling and Simula
 - Amine Othmane, Dr.-Ing., Univ. d. Saarl.
 
 
-<br>
-More information follows soon.
+**Preparation:**
 
+Please bring a notebook (Windows, Linux, MacOS) with at least 1 GB free space and the following installed:
+
+- Python interpreter (version >= 3.11),
+- Jupyter Notebook,
+- a command line prompt with python support configured.
+
+There are different possibilities to achieve this. Recommendation: [Anaconda Distribution
+](https://www.anaconda.com/download) (> 800 MB) or [Miniconda](https://docs.anaconda.com/free/miniconda/) (< 100 MB). If you choose miniconda, you should also install some packages with the following command:<br>
+`pip install notebook scipy sympy matplotlib pandas`
+
+
+<br><br><br>

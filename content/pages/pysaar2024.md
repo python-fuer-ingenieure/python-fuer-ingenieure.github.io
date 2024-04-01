@@ -45,5 +45,10 @@ There are different possibilities to achieve this. Recommendation: [Anaconda Dis
 ](https://www.anaconda.com/download) (> 800 MB) or [Miniconda](https://docs.anaconda.com/free/miniconda/) (< 100 MB). If you choose miniconda, you should also install some packages with the following command:<br>
 `pip install notebook scipy sympy matplotlib pandas`
 
+<br>
+
+**Material:**
+
+<https://datashare.tu-dresden.de/s/jHgwL7nJ323DTJF> (The files will be updated during the course.)
 
 <br><br><br>
